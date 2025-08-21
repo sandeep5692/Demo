@@ -16,7 +16,8 @@ public class RegistrationPage_TestCase {
 
 	@BeforeClass
 	public void setup() {
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
+		driver = (WebDriver) new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
@@ -51,6 +52,10 @@ public class RegistrationPage_TestCase {
 		rp.ContactNumber("8897090989");
 		rp.CreateAccount();
 		System.out.println("Add new");
+		System.out.println("GitDemo");
+		System.out.println("GitDemo1");
+		System.out.println("GitDemo3");
+
 
 	}
 
