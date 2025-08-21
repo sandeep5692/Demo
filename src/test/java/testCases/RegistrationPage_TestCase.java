@@ -55,6 +55,10 @@ public class RegistrationPage_TestCase {
 		System.out.println("GitDemo");
 		System.out.println("GitDemo1");
 		System.out.println("GitDemo3");
+		System.out.println("GitDemo4");
+		System.out.println("GitDemo5");
+		System.out.println("GitDemo6");
+
 
 
 	}
